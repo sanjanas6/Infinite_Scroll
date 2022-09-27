@@ -1,0 +1,32 @@
+.stories
+    {
+        width: 90%;
+        height: 25px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        align-items: center;
+      }
+
+
+.stories h1{
+    width: "90%";
+    height: "25px";
+    margin-left: "100px";
+    align-items: "center";
+}
+
+.stories li{
+        padding: 5px;
+        border-radius: 10px;
+        margin: auto;
+        margin-top: 8px;
+        width: 100%;
+}
+input {
+    margin-top: 20px;
+    width: 95%;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 20px;
+    margin-left: 50px;
+}

@@ -1,19 +1,16 @@
-import React from 'react';
-import Search from './Search';
-import Pagination from './Pagination';
-import Story from './Stories';
+import PostList from './Components/NewsList';
+import {Routes , Route} from 'react-router-dom'
+import Post from './Components/News';
 
-const App = () => {
 
-  // const data = ();
+function App() {
+  
   return (
-    <>
-    <div>News Website</div>
-    {/* <Search />
-    <Pagination /> */}
-    <Story />
-    </>
-  )
+    <Routes>
+      <Route path='/posts' element={<PostList />} />
+      <Route path='/posts/:objectId' element={<Post />} />
+    </Routes>
+  );
 }
 
-export default App
+export default App;
