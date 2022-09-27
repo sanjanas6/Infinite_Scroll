@@ -1,7 +1,7 @@
 import React from 'react';
 import Search from './Search';
 import Pagination from './Pagination';
-import Stories from './Stories';
+import Story from './Stories';
 
 const App = () => {
 
@@ -11,7 +11,7 @@ const App = () => {
     <div>News Website</div>
     {/* <Search />
     <Pagination /> */}
-    <Stories />
+    <Story />
     </>
   )
 }
